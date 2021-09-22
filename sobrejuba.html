@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Júlia Barão</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+</head>
+<body>
+<!-- menu -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="./assets/img/J Logo.png" alt="" width="30" height="24">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="sobrejuba.html">Sobre Juba</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="curiosidades.html">Curiosidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sonhos.html">Sonhos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Redes Sociais
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="https://www.facebook.com/julia.barao/">Facebook</a></li>
+                  <li><a class="dropdown-item" href="https://instagram.com/juliabarao?utm_medium=copy_link">Instagram</a></li>
+                  <li><a class="dropdown-item" href="https://www.linkedin.com/in/julia-rafaela-bar%C3%A3o-santos-729b32168">LinkedIn</a></li>
+                  <li><a class="dropdown-item" href="https://github.com/juliabarao">GitHub</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
+<!-- /menu -->
+<!-- carousel -->
+<div class="container">
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+          <img src="./assets/img/minhaFoto.jpg" class="d-block w-100 rounded-circle" alt="Foto da criadora desse site">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /carousel -->
+<br>
+<!-- Sobre Mim -->
+<div class="container">
+  <div class="text-center">
+    <p>
+        Oi, sejam muito bem vindos.
+    </p>
+    <p>
+        Eu sou a Júlia Rafaela Barão Santos, mais conhecida como Juba. Tenho 21 anos, nasci e moro em São Paulo.
+    </p>
+    <p>
+        Sou formada em Turismo, mas estou migrando para a área da programação. Atualmente, estou no 2º semestre de Análise e Desenvolvimento de Sistemas e fazendo um bootcamp de Dev Web Java Full Stack Jr., para ingressar o mais rápido possível nessa área que a cada dia que passa me fascina mais.
+    </p>
+    <p>
+        Estou criando o blog para compartilhar minhas experiências, dicas e paixões. Aqui falo de tudo que gosto e mais um pouco. Estou online em todas as minhas redes sociais (quase) 24 horas por dia, 7 dias na semana, assim consigo ficar mais próxima dos meus leitores.
+    </p>
+    <p>
+        Caso queira entrar em contato comigo, só rolar a página um pouquinho mais pra baixo. 
+    </p>
+    <p>
+        Beijos S2
+    </p>
+  </div>
+</div>
+<!-- /Sobre Mim -->
+<br>
+<!-- formulário -->
+<div class="container">
+  <h2 class="text-center">Entre em contato comigo</h2>
+  <p class="text-center">Escreva sua opinião/dicas/mensagens de carinho, que é muito importante para mim.</p>
+  <br>
+  <form class="row g-3 was-validated" novalidate>
+    <div class="col-md-4 position-relative">
+      <label for="validationTooltip01" class="form-label">First name</label>
+      <input type="text" class="form-control" id="validationTooltip01" required>
+      <div class="valid-tooltip">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4 position-relative">
+      <label for="validationTooltip02" class="form-label">Last name</label>
+      <input type="text" class="form-control" id="validationTooltip02" required>
+      <div class="valid-tooltip">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4 position-relative">
+      <label for="validationTooltipUsername" class="form-label">Username</label>
+      <div class="input-group has-validation">
+        <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+        <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+        <div class="invalid-tooltip">
+          Please choose a unique and valid username.
+        </div>
+      </div>
+    </div>
+    <div class="mb-6">
+      <label for="validationTextarea" class="form-label">Feedback</label>
+      <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+      <div class="invalid-feedback">
+        Please fill in this field.
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+        <label class="form-check-label" for="invalidCheck">
+          Agree to terms and conditions
+        </label>
+        <div class="invalid-feedback">
+          You must agree before submitting.
+        </div>
+      </div>
+    </div>
+    <div class="col-12">
+      <button class="btn btn-primary" type="submit">Submit form</button>
+    </div>
+  </form>
+</div>
+<!-- /formulário -->
+
+<!-- Rodapé -->
+<hr />
+<footer>
+    <div class="row">
+    <p class="text-center">Todos os direitos reservados: Júlia Barão &copy</p>
+    </div>
+</footer>
+<!-- /Rodapé -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+</body>
+</html>
